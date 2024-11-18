@@ -1,35 +1,124 @@
 export default function getAllProducts() {
   return [
     {
-      id: 'NAF-1-07-FMEN-001',
-      slug: 'nike-air-force-1-07-men',
-      name: "Nike Air Force 1 '07",
-      category: 'Men\'s Shoe',
-      price: 1_549_000,
+      id: 'SP-001',
+      slug: 'dumplings-spicy',
+      name: "Dumplings",
+      category: 'Spicy',
+      price: 25000,
       stock: 100,
-      imageUrl: '/assets/images/AIR-FORCE-1-07.png',
-      description: `The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine.`
+      imageUrl: '/assets/images/Dumplings.jpeg',
+      description: `Delicious and spicy dumplings with a flavorful filling that will ignite your taste buds.`
     },
     {
-      id: 'NAF-1-07-FMEN-LV8-002',
-      slug: 'nike-air-force-1-07-lv8-men',
-      name: "Nike Air Force 1 '07 LV8",
-      category: 'Men\'s Shoe',
-      price: 1_909_000,
-      stock: 5,
-      imageUrl: `/assets/images/AIR+FORCE+1+'07+LV8.png`,
-      description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs with bold details for style that tracks whether you're on court or on the go.`
+      id: 'SP-002',
+      slug: 'chicken-katsu-ramen-spicy',
+      name: "Chicken Katsu Ramen",
+      category: 'Spicy',
+      price: 30000,
+      stock: 100,
+      imageUrl: '/assets/images/Chicken Katsu Ramen.jpeg',
+      description: `A bowl of savory and spicy ramen topped with crispy chicken katsu.`
     },
     {
-      id: 'NAF-1-07-FWOMEN-003',
-      slug: 'nike-air-force-1-07-women',
-      name: "Nike Air Force 1 '07",
-      category: 'Women\'s Shoe',
-      price: 1_909_000,
+      id: 'SP-003',
+      slug: 'bacon-jalapeno-popper-eggrolls-spicy',
+      name: "Bacon Jalapeño Popper Eggrolls",
+      category: 'Spicy',
+      price: 30000,
+      stock: 70,
+      imageUrl: '/assets/images/Bacon Jalapeño Popper Eggrolls.jpeg',
+      description: `Spicy and savory eggrolls filled with bacon and jalapeño poppers.`
+    },
+    {
+      id: 'SP-004',
+      slug: 'yangnyeom-tongdak-spicy',
+      name: "Yangnyeom Tongdak",
+      category: 'Spicy',
+      price: 20000,
       stock: 0,
-      imageUrl: `/assets/images/WMNS+AIR+FORCE+1+'07.jpeg`,
-      description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs a warm suede upper with neutral accents for style that tracks whether you're on court or on the go.`
+      imageUrl: '/assets/images/Yangnyeom-tongdak.jpeg',
+      description: `Korean-style fried chicken coated in spicy and sweet yangnyeom sauce.`
     },
-
-  ]
+    {
+      id: 'SW-001',
+      slug: 'pukis-sweet',
+      name: "Pukis",
+      category: 'Sweet',
+      price: 2500,
+      stock: 100,
+      imageUrl: '/assets/images/Pukis.jpeg',
+      description: `Soft and fluffy traditional Indonesian sweet cake.`
+    },
+    {
+      id: 'SW-002',
+      slug: 'martabak-sweet',
+      name: "Martabak",
+      category: 'Sweet',
+      price: 28000,
+      stock: 59,
+      imageUrl: '/assets/images/Martabak.jpeg',
+      description: `Thick and sweet pancake filled with various toppings like chocolate and cheese.`
+    },
+    {
+      id: 'SW-003',
+      slug: 'pisang-molen-sweet',
+      name: "Pisang Molen",
+      category: 'Sweet',
+      price: 2000,
+      stock: 100,
+      imageUrl: '/assets/images/Pisang molen.jpeg',
+      description: `Deep-fried banana wrapped in sweet pastry dough.`
+    },
+    {
+      id: 'SW-004',
+      slug: 'klepon-sweet',
+      name: "Klepon",
+      category: 'Sweet',
+      price: 1000,
+      stock: 0,
+      imageUrl: '/assets/images/Klepon.jpeg',
+      description: `Sticky rice balls filled with palm sugar and coated with grated coconut.`
+    },
+    {
+      id: 'DR-001',
+      slug: 'ice-orange-drink',
+      name: "Ice Orange",
+      category: 'Drink',
+      price: 5000,
+      stock: 0,
+      imageUrl: '/assets/images/Ice orange.jpeg',
+      description: `Refreshing orange juice served over ice.`
+    },
+    {
+      id: 'DR-002',
+      slug: 'ice-tea-drink',
+      name: "Ice Tea",
+      category: 'Drink',
+      price: 5000,
+      stock: 100,
+      imageUrl: '/assets/images/Ice tea.png',
+      description: `Classic sweetened tea served chilled over ice.`
+    },
+    {
+      id: 'DR-003',
+      slug: 'ice-lemon-tea-drink',
+      name: "Ice Lemon Tea",
+      category: 'Drink',
+      price: 5000,
+      stock: 100,
+      imageUrl: '/assets/images/Iced lemon tea.jpeg',
+      description: `Refreshing lemon tea with a hint of sweetness served over ice.`
+    },
+    {
+      id: 'DR-004',
+      slug: 'mango-smoothie-drink',
+      name: "Mango Smoothie",
+      category: 'Drink',
+      price: 10000,
+      stock: 0,
+      imageUrl: '/assets/images/Mango Smoothie.jpeg',
+      description: `Smooth and creamy mango smoothie, perfect for a hot day.`
+    }
+  ];
 }

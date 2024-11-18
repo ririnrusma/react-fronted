@@ -35,7 +35,7 @@ export default function ProductDetail() {
     <div className='flex gap-[30px] px-24'>
             <div className=''>
                 {/* <img src={product.imageUrl ?? (product.name ?? 'No Name')} alt={product.name ?? 'No Name'} className='block spect-[138/100] max-w-[400px] object-cover'/> */}
-                <img src={product.imageUrl ?? (product.name ?? 'No Name')} alt={product.name ?? 'No Name'} className='block w-[700px] h-[500px] object-cover'/>
+                <img src={product.imageUrl ?? (product.name ?? 'No Name')} alt={product.name ?? 'No Name'} className='block w-[400px] h-[300px] object-cover'/>
             </div>
             <div className='flex flex-col gap-[20px]'>
               <span className='text-[40px] font-medium'>{formatToIDRCurrency(product.price) ?? `Not For Sale`}</span>
@@ -53,20 +53,14 @@ export default function ProductDetail() {
 
               {product.stock > 0 ? (
                 <div>
-                  <Button
-                    type="button"
-                    className="inline-flex items-center justify-center gap-2 p-4 bg-[#6173E6] text-center hover:bg-[#5969cf] text-white active:bg-[#4956ab]"
-                  >
+                  <Button type="button" className="inline-flex items-center justify-center gap-2 p-4 bg-[#6173E6] text-center hover:bg-[#5969cf] text-white active:bg-[#4956ab] rounded-lg">
                     <FontAwesomeIcon icon={faCartShopping} className="mb-0 text-white" />
                     <span className="text-white">Add to cart</span>
                   </Button>
                 </div>
               ) : (
                 <div>
-                  <Button
-                    type="button"
-                    className="inline-flex items-center justify-center gap-2 p-4 bg-[#9A9A9A] text-center"
-                  >
+                  <Button type="button" className="inline-flex items-center justify-center gap-2 p-4 bg-[#9A9A9A] text-center rounded-lg">
                     <FontAwesomeIcon icon={faCartShopping} className="mb-0 text-white" />
                     <span className="text-[#F3F3F3]">Add to cart</span>
                   </Button>

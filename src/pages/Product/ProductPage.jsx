@@ -20,13 +20,17 @@ export default function ProductPage() {
       value: 'all'
     },
     {
-      label: 'Men\'s Shoes',
-      value: 'menshoes'
+      label: 'Sweet',
+      value: 'sweet',
     },
     {
-      label: 'Women\'s Shoes',
-      value: 'womenshoes'
+      label: 'Spicy',
+      value: 'spicy',
     },
+    {
+      label: 'Drink',
+      value: 'drink',
+    },    
   ]
 
   return (
@@ -38,7 +42,7 @@ export default function ProductPage() {
              <RadioButton options={RadioButtonOpts} defaultValue={'all'}/>
           </div>
       </div>
-     <section className='container px-24 py-4'>
+     <section className='flex justify-center items-center min-h-screen px-24 py-4'>
       <main className='grid grid-cols-4 gap-4'>
           <CardList products={products}/>
       </main>

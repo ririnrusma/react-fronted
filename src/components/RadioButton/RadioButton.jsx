@@ -1,7 +1,7 @@
 import  { useState } from "react";
+import getAllProducts from "../../services/getAllProducts";
 
 export default function RadioButton({ options, defaultValue }) {
-  // Set the selected state to the defaultValue passed as prop or the first option if no default is provided
   const [selected, setSelected] = useState(defaultValue || options[0]?.value);
 
   return (

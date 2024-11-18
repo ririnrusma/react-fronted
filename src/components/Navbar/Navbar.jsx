@@ -19,12 +19,12 @@ export default function Navbar() {
         </ul>
         {!isLoggedIn ? (
             <ul className='flex gap-2 justify-end'>
-              <li className='text-[#F2F4FF] hover:text-[#565f93] active:text-[#1d2342]'>
-                {/* <Link to="">Sign in</Link> */}
+              <li className='bg-white text-[#6173E6] active:text-[#4956ab] inline-flex items-center justify-center gap-2 p-2 text-center hover:text-[#5969cf] hover:bg-[#f0f0f0] active:bg-[#e0e0e0] rounded-md'>
+              {/* <Link to="">Sign in</Link> */}
                 <button onClick={ login}>Sign in</button>
               </li>
               <li>
-                <Link className='text-[#F2F4FF] hover:text-[#565f93] active:text-[#1d2342]' to="/singup">Sign up</Link>
+                <Link className='bg-white text-[#6173E6] active:text-[#4956ab] inline-flex items-center justify-center gap-2 p-2 text-center hover:text-[#5969cf] hover:bg-[#f0f0f0] active:bg-[#e0e0e0] rounded-md' to="/singup">Sign up</Link>
               </li>
           </ul>
         )
